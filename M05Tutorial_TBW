@@ -1,16 +1,39 @@
-let fruits = ['apple', 'banana', 'orange'];
-
-// Using a for loop
-for (let i = 0; i < fruits.length; i++) {
-  console.log(fruits[i]);
+// If statement
+if (a > b) {
+  console.log("a is greater than b");
+} else if (a < b) {
+  console.log("a is less than b");
+} else {
+  console.log("a is equal to b");
 }
 
-// Using a for-of loop
-for (let fruit of fruits) {
-  console.log(fruit);
+// Switch statement
+switch (a) {
+  case 1:
+    console.log("a is 1");
+    break;
+  case 2:
+    console.log("a is 2");
+    break;
+  default:
+    console.log("a is neither 1 nor 2");
 }
 
-// Using a forEach method
-fruits.forEach(function(fruit) {
-  console.log(fruit);
-});
+// For loop
+for (var i = 0; i < 10; i++) {
+  console.log(i);
+}
+
+// While loop
+var i = 0;
+while (i < 10) {
+  console.log(i);
+  i++;
+}
+
+// Do-while loop
+var i = 0;
+do {
+  console.log(i);
+  i++;
+} while (i < 10);
